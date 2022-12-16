@@ -1,0 +1,163 @@
+body{
+    font-family: 'Montserrat-black';
+}
+
+h1, h2, h3{
+    font-family: 'Montserrat-black';
+    font-weight: bold
+}
+
+/* navigation section */
+
+ .navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+ }
+  .navbar{
+    margin-bottom: 2.5rem;
+ } 
+ .nav-item{
+    padding: 0 18px;
+ }
+ .nav-link{
+    font-size: 1.3rem;
+ }
+ /* title section */
+
+ #title{
+    background-color: rgb(221, 200, 10);
+    color: rgb(133, 16, 16);
+    
+}
+.nav-container{ 
+    padding: 10px 10% 10px 10%;
+    color: rgb(133, 16, 16);
+}  
+.title-container{padding: 1% 10% 7%;}
+    
+h1{
+        font-family: 'Montserrat';
+        /* font-weight: 900; */
+        line-height: 1.5;
+        font-size: 3rem;
+}
+ .download-btn{
+    margin: 5% 2% 0;
+ }
+
+ .title-image{
+    width: 60%; 
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+
+
+ }
+ .iphone-container{position: relative;}
+ 
+/* features section */
+
+#features{
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+}
+ .fa-3x{
+    color:rgb(214, 179, 91);
+    margin-bottom: 1rem;
+}
+.fa-3x:hover{color: rgb(221, 200, 10);}
+
+.features-title{
+    font-size: 1.5rem;
+}
+.features-p{
+    color: #8f8f8f;
+}
+
+.col-lg-4{
+    text-align: center;
+    align-items: center;
+}
+
+/* testimonial section */
+
+#testimonials{
+    background-color: rgba(221, 207, 10, 0.671);;
+    color: rgb(133, 18, 18) ;
+    text-align: center;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: rgba(221, 207, 10, 0.671);
+    text-align: center;
+    padding-bottom: 20px;
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 50px 100px;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+/* cta section */
+ #cta{
+    background-color: rgba(221, 207, 10, 0.671);
+    color: rgb(133, 18, 18);
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-title{
+    font-size: 3.5rem;
+    line-height: 1.5;   
+}
+
+.cta-btn{
+    margin: 3% 1.5% 0;
+ }
+/* footer section */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.sm-icons{
+    padding:10px
+}
+
+@media only screen and (max-width: 1000px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        margin-top: 30px;
+          }
+
+    #title{
+        text-align: center;
+    }
+  } 
